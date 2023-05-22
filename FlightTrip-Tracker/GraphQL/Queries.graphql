@@ -1,0 +1,11 @@
+query getAllFlights{
+  flightQuery {
+    flightID
+    origin
+    destination
+    durationInMinutes
+    carriers
+    price
+    currency
+  }
+}

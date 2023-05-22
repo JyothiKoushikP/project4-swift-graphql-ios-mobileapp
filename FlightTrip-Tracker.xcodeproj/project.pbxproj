@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75F3EF9295F0DA1001199C9 /* AppLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75F3EF8295F0DA1001199C9 /* AppLaunchScreen.storyboard */; };
+		C75F3F4B295F463F001199C9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F2A295F4636001199C9 /* Roboto-Bold.ttf */; };
+		C75F3F4C295F463F001199C9 /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F2B295F4637001199C9 /* PlayfairDisplay-BlackItalic.ttf */; };
+		C75F3F4D295F463F001199C9 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F2C295F4637001199C9 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		C75F3F4E295F463F001199C9 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F2D295F4637001199C9 /* PlayfairDisplay-Regular.ttf */; };
+		C75F3F4F295F463F001199C9 /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F2E295F4637001199C9 /* SpaceGrotesk-Regular.ttf */; };
+		C75F3F50295F463F001199C9 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F2F295F4637001199C9 /* PlayfairDisplay-Bold.ttf */; };
+		C75F3F51295F463F001199C9 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F30295F4638001199C9 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		C75F3F52295F463F001199C9 /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F31295F4638001199C9 /* PlayfairDisplay-BoldItalic.ttf */; };
+		C75F3F53295F463F001199C9 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F32295F4638001199C9 /* Roboto-ThinItalic.ttf */; };
+		C75F3F54295F463F001199C9 /* SpaceGrotesk-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F33295F4638001199C9 /* SpaceGrotesk-Light.ttf */; };
+		C75F3F55295F463F001199C9 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F34295F4638001199C9 /* Roboto-Black.ttf */; };
+		C75F3F56295F463F001199C9 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F35295F4638001199C9 /* PlayfairDisplay-ExtraBold.ttf */; };
+		C75F3F57295F463F001199C9 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F36295F4638001199C9 /* Roboto-Thin.ttf */; };
+		C75F3F58295F463F001199C9 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F37295F4639001199C9 /* Roboto-Italic.ttf */; };
+		C75F3F59295F463F001199C9 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F38295F4639001199C9 /* Roboto-Light.ttf */; };
+		C75F3F5A295F463F001199C9 /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F39295F463A001199C9 /* SpaceGrotesk-Medium.ttf */; };
+		C75F3F5B295F463F001199C9 /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F3A295F463A001199C9 /* PlayfairDisplay-Black.ttf */; };
+		C75F3F5C295F463F001199C9 /* SpaceGrotesk-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F3B295F463A001199C9 /* SpaceGrotesk-VariableFont_wght.ttf */; };
+		C75F3F5D295F463F001199C9 /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F3C295F463A001199C9 /* PlayfairDisplay-Medium.ttf */; };
+		C75F3F5E295F463F001199C9 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F3D295F463B001199C9 /* PlayfairDisplay-ExtraBoldItalic.ttf */; };
+		C75F3F5F295F463F001199C9 /* Abel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F3E295F463B001199C9 /* Abel-Regular.ttf */; };
+		C75F3F60295F463F001199C9 /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F3F295F463B001199C9 /* PlayfairDisplay-SemiBold.ttf */; };
+		C75F3F61295F463F001199C9 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F40295F463B001199C9 /* Roboto-Medium.ttf */; };
+		C75F3F62295F463F001199C9 /* PlayfairDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F41295F463C001199C9 /* PlayfairDisplay-MediumItalic.ttf */; };
+		C75F3F63295F463F001199C9 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F42295F463C001199C9 /* Roboto-LightItalic.ttf */; };
+		C75F3F64295F463F001199C9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F43295F463D001199C9 /* Roboto-Regular.ttf */; };
+		C75F3F65295F463F001199C9 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F44295F463D001199C9 /* Roboto-BoldItalic.ttf */; };
+		C75F3F66295F463F001199C9 /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F45295F463D001199C9 /* PlayfairDisplay-Italic.ttf */; };
+		C75F3F67295F463F001199C9 /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F46295F463E001199C9 /* PlayfairDisplay-SemiBoldItalic.ttf */; };
+		C75F3F68295F463F001199C9 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F47295F463E001199C9 /* Roboto-BlackItalic.ttf */; };
+		C75F3F69295F463F001199C9 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F48295F463E001199C9 /* Roboto-MediumItalic.ttf */; };
+		C75F3F6A295F463F001199C9 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F49295F463E001199C9 /* SpaceGrotesk-Bold.ttf */; };
+		C75F3F6B295F463F001199C9 /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75F3F4A295F463F001199C9 /* SpaceGrotesk-SemiBold.ttf */; };
+		C77F8070295B14BB005BA9EB /* FlightTrip_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F806F295B14BB005BA9EB /* FlightTrip_TrackerApp.swift */; };
+		C77F8072295B14BB005BA9EB /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F8071295B14BB005BA9EB /* AppMainView.swift */; };
+		C77F8074295B14BD005BA9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77F8073295B14BD005BA9EB /* Assets.xcassets */; };
+		C77F8078295B14BD005BA9EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77F8077295B14BD005BA9EB /* Preview Assets.xcassets */; };
+		C77F8082295B14BD005BA9EB /* FlightTrip_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F8081295B14BD005BA9EB /* FlightTrip_TrackerTests.swift */; };
+		C77F808C295B14BD005BA9EB /* FlightTrip_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F808B295B14BD005BA9EB /* FlightTrip_TrackerUITests.swift */; };
+		C77F808E295B14BD005BA9EB /* FlightTrip_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F808D295B14BD005BA9EB /* FlightTrip_TrackerUITestsLaunchTests.swift */; };
+		C77F809C295B157E005BA9EB /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F809B295B157E005BA9EB /* Apollo.swift */; };
+		C77F809F295B16A9005BA9EB /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = C77F809E295B16A9005BA9EB /* Apollo */; };
+		C77F80A2295B1E10005BA9EB /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = C77F80A1295B1E10005BA9EB /* Queries.graphql */; };
+		C77F80A4295B227A005BA9EB /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = C77F80A3295B227A005BA9EB /* schema.json */; };
+		C77F80A8295B2828005BA9EB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F80A7295B2828005BA9EB /* API.swift */; };
+		C79A6C4629643C8200E2BF8E /* FlightDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79A6C4529643C8100E2BF8E /* FlightDataListView.swift */; };
+		C7B506472963365E00CBE114 /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B506462963365E00CBE114 /* FlightData.swift */; };
+		C7B5064F29633AEA00CBE114 /* FlightDataCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B5064E29633AEA00CBE114 /* FlightDataCardView.swift */; };
+		C7B5065029633AEA00CBE114 /* FlightDataCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B5064E29633AEA00CBE114 /* FlightDataCardView.swift */; };
+		C7B5065129633AEA00CBE114 /* FlightDataCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B5064E29633AEA00CBE114 /* FlightDataCardView.swift */; };
+		C7B5065329633B8600CBE114 /* FlightDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B5065229633B8600CBE114 /* FlightDataViewModel.swift */; };
+		C7B5065429633B8600CBE114 /* FlightDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B5065229633B8600CBE114 /* FlightDataViewModel.swift */; };
+		C7B5065529633B8600CBE114 /* FlightDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B5065229633B8600CBE114 /* FlightDataViewModel.swift */; };
+		C7CFA1A4296C692200BF9595 /* FlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFA1A3296C692200BF9595 /* FlightDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C77F807E295B14BD005BA9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77F8064295B14BB005BA9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77F806B295B14BB005BA9EB;
+			remoteInfo = "FlightTrip-Tracker";
+		};
+		C77F8088295B14BD005BA9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77F8064295B14BB005BA9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77F806B295B14BB005BA9EB;
+			remoteInfo = "FlightTrip-Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C75F3EF8295F0DA1001199C9 /* AppLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppLaunchScreen.storyboard; sourceTree = "<group>"; };
+		C75F3F2A295F4636001199C9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../Font/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		C75F3F2B295F4637001199C9 /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-BlackItalic.ttf"; path = "../../../Font/PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F2C295F4637001199C9 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Italic-VariableFont_wght.ttf"; path = "../../../Font/PlayfairDisplay-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C75F3F2D295F4637001199C9 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.ttf"; path = "../../../Font/PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		C75F3F2E295F4637001199C9 /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceGrotesk-Regular.ttf"; path = "../../../Font/SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		C75F3F2F295F4637001199C9 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Bold.ttf"; path = "../../../Font/PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		C75F3F30295F4638001199C9 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-VariableFont_wght.ttf"; path = "../../../Font/PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C75F3F31295F4638001199C9 /* PlayfairDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-BoldItalic.ttf"; path = "../../../Font/PlayfairDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F32295F4638001199C9 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../../Font/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F33295F4638001199C9 /* SpaceGrotesk-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceGrotesk-Light.ttf"; path = "../../../Font/SpaceGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		C75F3F34295F4638001199C9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../../Font/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		C75F3F35295F4638001199C9 /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-ExtraBold.ttf"; path = "../../../Font/PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C75F3F36295F4638001199C9 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../Font/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		C75F3F37295F4639001199C9 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "../../../Font/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		C75F3F38295F4639001199C9 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Font/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		C75F3F39295F463A001199C9 /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceGrotesk-Medium.ttf"; path = "../../../Font/SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		C75F3F3A295F463A001199C9 /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Black.ttf"; path = "../../../Font/PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
+		C75F3F3B295F463A001199C9 /* SpaceGrotesk-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceGrotesk-VariableFont_wght.ttf"; path = "../../../Font/SpaceGrotesk-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C75F3F3C295F463A001199C9 /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Medium.ttf"; path = "../../../Font/PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		C75F3F3D295F463B001199C9 /* PlayfairDisplay-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-ExtraBoldItalic.ttf"; path = "../../../Font/PlayfairDisplay-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F3E295F463B001199C9 /* Abel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Abel-Regular.ttf"; path = "../../../Font/Abel-Regular.ttf"; sourceTree = "<group>"; };
+		C75F3F3F295F463B001199C9 /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-SemiBold.ttf"; path = "../../../Font/PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		C75F3F40295F463B001199C9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../Font/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C75F3F41295F463C001199C9 /* PlayfairDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-MediumItalic.ttf"; path = "../../../Font/PlayfairDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F42295F463C001199C9 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "../../../Font/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F43295F463D001199C9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../Font/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C75F3F44295F463D001199C9 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "../../../Font/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F45295F463D001199C9 /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Italic.ttf"; path = "../../../Font/PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		C75F3F46295F463E001199C9 /* PlayfairDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-SemiBoldItalic.ttf"; path = "../../../Font/PlayfairDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F47295F463E001199C9 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../../../Font/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F48295F463E001199C9 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "../../../Font/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C75F3F49295F463E001199C9 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceGrotesk-Bold.ttf"; path = "../../../Font/SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		C75F3F4A295F463F001199C9 /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceGrotesk-SemiBold.ttf"; path = "../../../Font/SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		C77F806C295B14BB005BA9EB /* FlightTrip-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlightTrip-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77F806F295B14BB005BA9EB /* FlightTrip_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrip_TrackerApp.swift; sourceTree = "<group>"; };
+		C77F8071295B14BB005BA9EB /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
+		C77F8073295B14BD005BA9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C77F8075295B14BD005BA9EB /* FlightTrip_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlightTrip_Tracker.entitlements; sourceTree = "<group>"; };
+		C77F8077295B14BD005BA9EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C77F807D295B14BD005BA9EB /* FlightTrip-TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlightTrip-TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77F8081295B14BD005BA9EB /* FlightTrip_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrip_TrackerTests.swift; sourceTree = "<group>"; };
+		C77F8087295B14BD005BA9EB /* FlightTrip-TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlightTrip-TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77F808B295B14BD005BA9EB /* FlightTrip_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrip_TrackerUITests.swift; sourceTree = "<group>"; };
+		C77F808D295B14BD005BA9EB /* FlightTrip_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrip_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C77F809B295B157E005BA9EB /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+		C77F80A1295B1E10005BA9EB /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		C77F80A3295B227A005BA9EB /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = schema.json; path = "FlightTrip-Tracker/schema.json"; sourceTree = SOURCE_ROOT; };
+		C77F80A7295B2828005BA9EB /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C79A6C4529643C8100E2BF8E /* FlightDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDataListView.swift; sourceTree = "<group>"; };
+		C7B506462963365E00CBE114 /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		C7B5064E29633AEA00CBE114 /* FlightDataCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDataCardView.swift; sourceTree = "<group>"; };
+		C7B5065229633B8600CBE114 /* FlightDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDataViewModel.swift; sourceTree = "<group>"; };
+		C7CFA1A3296C692200BF9595 /* FlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77F8069295B14BB005BA9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77F809F295B16A9005BA9EB /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77F807A295B14BD005BA9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77F8084295B14BD005BA9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75F3F29295F461C001199C9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C75F3F3E295F463B001199C9 /* Abel-Regular.ttf */,
+				C75F3F3A295F463A001199C9 /* PlayfairDisplay-Black.ttf */,
+				C75F3F2B295F4637001199C9 /* PlayfairDisplay-BlackItalic.ttf */,
+				C75F3F2F295F4637001199C9 /* PlayfairDisplay-Bold.ttf */,
+				C75F3F31295F4638001199C9 /* PlayfairDisplay-BoldItalic.ttf */,
+				C75F3F35295F4638001199C9 /* PlayfairDisplay-ExtraBold.ttf */,
+				C75F3F3D295F463B001199C9 /* PlayfairDisplay-ExtraBoldItalic.ttf */,
+				C75F3F2C295F4637001199C9 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */,
+				C75F3F45295F463D001199C9 /* PlayfairDisplay-Italic.ttf */,
+				C75F3F3C295F463A001199C9 /* PlayfairDisplay-Medium.ttf */,
+				C75F3F41295F463C001199C9 /* PlayfairDisplay-MediumItalic.ttf */,
+				C75F3F2D295F4637001199C9 /* PlayfairDisplay-Regular.ttf */,
+				C75F3F3F295F463B001199C9 /* PlayfairDisplay-SemiBold.ttf */,
+				C75F3F46295F463E001199C9 /* PlayfairDisplay-SemiBoldItalic.ttf */,
+				C75F3F30295F4638001199C9 /* PlayfairDisplay-VariableFont_wght.ttf */,
+				C75F3F34295F4638001199C9 /* Roboto-Black.ttf */,
+				C75F3F47295F463E001199C9 /* Roboto-BlackItalic.ttf */,
+				C75F3F2A295F4636001199C9 /* Roboto-Bold.ttf */,
+				C75F3F44295F463D001199C9 /* Roboto-BoldItalic.ttf */,
+				C75F3F37295F4639001199C9 /* Roboto-Italic.ttf */,
+				C75F3F38295F4639001199C9 /* Roboto-Light.ttf */,
+				C75F3F42295F463C001199C9 /* Roboto-LightItalic.ttf */,
+				C75F3F40295F463B001199C9 /* Roboto-Medium.ttf */,
+				C75F3F48295F463E001199C9 /* Roboto-MediumItalic.ttf */,
+				C75F3F43295F463D001199C9 /* Roboto-Regular.ttf */,
+				C75F3F36295F4638001199C9 /* Roboto-Thin.ttf */,
+				C75F3F32295F4638001199C9 /* Roboto-ThinItalic.ttf */,
+				C75F3F49295F463E001199C9 /* SpaceGrotesk-Bold.ttf */,
+				C75F3F33295F4638001199C9 /* SpaceGrotesk-Light.ttf */,
+				C75F3F39295F463A001199C9 /* SpaceGrotesk-Medium.ttf */,
+				C75F3F2E295F4637001199C9 /* SpaceGrotesk-Regular.ttf */,
+				C75F3F4A295F463F001199C9 /* SpaceGrotesk-SemiBold.ttf */,
+				C75F3F3B295F463A001199C9 /* SpaceGrotesk-VariableFont_wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C77F8063295B14BB005BA9EB = {
+			isa = PBXGroup;
+			children = (
+				C77F806E295B14BB005BA9EB /* FlightTrip-Tracker */,
+				C77F8080295B14BD005BA9EB /* FlightTrip-TrackerTests */,
+				C77F808A295B14BD005BA9EB /* FlightTrip-TrackerUITests */,
+				C77F806D295B14BB005BA9EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C77F806D295B14BB005BA9EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C77F806C295B14BB005BA9EB /* FlightTrip-Tracker.app */,
+				C77F807D295B14BD005BA9EB /* FlightTrip-TrackerTests.xctest */,
+				C77F8087295B14BD005BA9EB /* FlightTrip-TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77F806E295B14BB005BA9EB /* FlightTrip-Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				C7B506492963383100CBE114 /* ViewModel */,
+				C7B506482963382800CBE114 /* View */,
+				C7B506452963364D00CBE114 /* Model */,
+				C77F809A295B156D005BA9EB /* GraphQL */,
+				C77F80A3295B227A005BA9EB /* schema.json */,
+				C77F806F295B14BB005BA9EB /* FlightTrip_TrackerApp.swift */,
+				C77F8071295B14BB005BA9EB /* AppMainView.swift */,
+				C77F8073295B14BD005BA9EB /* Assets.xcassets */,
+				C77F8075295B14BD005BA9EB /* FlightTrip_Tracker.entitlements */,
+				C75F3F29295F461C001199C9 /* Font */,
+				C77F8076295B14BD005BA9EB /* Preview Content */,
+				C75F3EF8295F0DA1001199C9 /* AppLaunchScreen.storyboard */,
+			);
+			path = "FlightTrip-Tracker";
+			sourceTree = "<group>";
+		};
+		C77F8076295B14BD005BA9EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C77F8077295B14BD005BA9EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C77F8080295B14BD005BA9EB /* FlightTrip-TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C77F8081295B14BD005BA9EB /* FlightTrip_TrackerTests.swift */,
+			);
+			path = "FlightTrip-TrackerTests";
+			sourceTree = "<group>";
+		};
+		C77F808A295B14BD005BA9EB /* FlightTrip-TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C77F808B295B14BD005BA9EB /* FlightTrip_TrackerUITests.swift */,
+				C77F808D295B14BD005BA9EB /* FlightTrip_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "FlightTrip-TrackerUITests";
+			sourceTree = "<group>";
+		};
+		C77F809A295B156D005BA9EB /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				C77F80A7295B2828005BA9EB /* API.swift */,
+				C77F809B295B157E005BA9EB /* Apollo.swift */,
+				C77F80A1295B1E10005BA9EB /* Queries.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		C7B506452963364D00CBE114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7B506462963365E00CBE114 /* FlightData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7B506482963382800CBE114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5064E29633AEA00CBE114 /* FlightDataCardView.swift */,
+				C79A6C4529643C8100E2BF8E /* FlightDataListView.swift */,
+				C7CFA1A3296C692200BF9595 /* FlightDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7B506492963383100CBE114 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5065229633B8600CBE114 /* FlightDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C77F806B295B14BB005BA9EB /* FlightTrip-Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77F8091295B14BD005BA9EB /* Build configuration list for PBXNativeTarget "FlightTrip-Tracker" */;
+			buildPhases = (
+				C77F80A0295B17BE005BA9EB /* Generate GraphQL Apollo API (FlightTrip) */,
+				C77F8068295B14BB005BA9EB /* Sources */,
+				C77F8069295B14BB005BA9EB /* Frameworks */,
+				C77F806A295B14BB005BA9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlightTrip-Tracker";
+			packageProductDependencies = (
+				C77F809E295B16A9005BA9EB /* Apollo */,
+			);
+			productName = "FlightTrip-Tracker";
+			productReference = C77F806C295B14BB005BA9EB /* FlightTrip-Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C77F807C295B14BD005BA9EB /* FlightTrip-TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77F8094295B14BD005BA9EB /* Build configuration list for PBXNativeTarget "FlightTrip-TrackerTests" */;
+			buildPhases = (
+				C77F8079295B14BD005BA9EB /* Sources */,
+				C77F807A295B14BD005BA9EB /* Frameworks */,
+				C77F807B295B14BD005BA9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77F807F295B14BD005BA9EB /* PBXTargetDependency */,
+			);
+			name = "FlightTrip-TrackerTests";
+			productName = "FlightTrip-TrackerTests";
+			productReference = C77F807D295B14BD005BA9EB /* FlightTrip-TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C77F8086295B14BD005BA9EB /* FlightTrip-TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77F8097295B14BD005BA9EB /* Build configuration list for PBXNativeTarget "FlightTrip-TrackerUITests" */;
+			buildPhases = (
+				C77F8083295B14BD005BA9EB /* Sources */,
+				C77F8084295B14BD005BA9EB /* Frameworks */,
+				C77F8085295B14BD005BA9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77F8089295B14BD005BA9EB /* PBXTargetDependency */,
+			);
+			name = "FlightTrip-TrackerUITests";
+			productName = "FlightTrip-TrackerUITests";
+			productReference = C77F8087295B14BD005BA9EB /* FlightTrip-TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77F8064295B14BB005BA9EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C77F806B295B14BB005BA9EB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C77F807C295B14BD005BA9EB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C77F806B295B14BB005BA9EB;
+					};
+					C77F8086295B14BD005BA9EB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C77F806B295B14BB005BA9EB;
+					};
+				};
+			};
+			buildConfigurationList = C77F8067295B14BB005BA9EB /* Build configuration list for PBXProject "FlightTrip-Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C77F8063295B14BB005BA9EB;
+			packageReferences = (
+				C77F809D295B16A9005BA9EB /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = C77F806D295B14BB005BA9EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C77F806B295B14BB005BA9EB /* FlightTrip-Tracker */,
+				C77F807C295B14BD005BA9EB /* FlightTrip-TrackerTests */,
+				C77F8086295B14BD005BA9EB /* FlightTrip-TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C77F806A295B14BB005BA9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75F3EF9295F0DA1001199C9 /* AppLaunchScreen.storyboard in Resources */,
+				C75F3F50295F463F001199C9 /* PlayfairDisplay-Bold.ttf in Resources */,
+				C75F3F63295F463F001199C9 /* Roboto-LightItalic.ttf in Resources */,
+				C75F3F66295F463F001199C9 /* PlayfairDisplay-Italic.ttf in Resources */,
+				C75F3F59295F463F001199C9 /* Roboto-Light.ttf in Resources */,
+				C77F80A4295B227A005BA9EB /* schema.json in Resources */,
+				C75F3F4E295F463F001199C9 /* PlayfairDisplay-Regular.ttf in Resources */,
+				C75F3F5A295F463F001199C9 /* SpaceGrotesk-Medium.ttf in Resources */,
+				C75F3F52295F463F001199C9 /* PlayfairDisplay-BoldItalic.ttf in Resources */,
+				C75F3F56295F463F001199C9 /* PlayfairDisplay-ExtraBold.ttf in Resources */,
+				C75F3F4B295F463F001199C9 /* Roboto-Bold.ttf in Resources */,
+				C75F3F65295F463F001199C9 /* Roboto-BoldItalic.ttf in Resources */,
+				C75F3F67295F463F001199C9 /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */,
+				C75F3F4F295F463F001199C9 /* SpaceGrotesk-Regular.ttf in Resources */,
+				C75F3F5D295F463F001199C9 /* PlayfairDisplay-Medium.ttf in Resources */,
+				C75F3F5E295F463F001199C9 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */,
+				C75F3F69295F463F001199C9 /* Roboto-MediumItalic.ttf in Resources */,
+				C75F3F62295F463F001199C9 /* PlayfairDisplay-MediumItalic.ttf in Resources */,
+				C75F3F6B295F463F001199C9 /* SpaceGrotesk-SemiBold.ttf in Resources */,
+				C75F3F6A295F463F001199C9 /* SpaceGrotesk-Bold.ttf in Resources */,
+				C75F3F68295F463F001199C9 /* Roboto-BlackItalic.ttf in Resources */,
+				C75F3F64295F463F001199C9 /* Roboto-Regular.ttf in Resources */,
+				C75F3F58295F463F001199C9 /* Roboto-Italic.ttf in Resources */,
+				C75F3F5F295F463F001199C9 /* Abel-Regular.ttf in Resources */,
+				C75F3F5C295F463F001199C9 /* SpaceGrotesk-VariableFont_wght.ttf in Resources */,
+				C75F3F57295F463F001199C9 /* Roboto-Thin.ttf in Resources */,
+				C77F80A2295B1E10005BA9EB /* Queries.graphql in Resources */,
+				C75F3F5B295F463F001199C9 /* PlayfairDisplay-Black.ttf in Resources */,
+				C75F3F4D295F463F001199C9 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
+				C77F8078295B14BD005BA9EB /* Preview Assets.xcassets in Resources */,
+				C75F3F53295F463F001199C9 /* Roboto-ThinItalic.ttf in Resources */,
+				C75F3F55295F463F001199C9 /* Roboto-Black.ttf in Resources */,
+				C77F8074295B14BD005BA9EB /* Assets.xcassets in Resources */,
+				C75F3F54295F463F001199C9 /* SpaceGrotesk-Light.ttf in Resources */,
+				C75F3F61295F463F001199C9 /* Roboto-Medium.ttf in Resources */,
+				C75F3F51295F463F001199C9 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
+				C75F3F4C295F463F001199C9 /* PlayfairDisplay-BlackItalic.ttf in Resources */,
+				C75F3F60295F463F001199C9 /* PlayfairDisplay-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77F807B295B14BD005BA9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77F8085295B14BD005BA9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C77F80A0295B17BE005BA9EB /* Generate GraphQL Apollo API (FlightTrip) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate GraphQL Apollo API (FlightTrip)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/FlightTrip-Tracker/\"\n\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77F8068295B14BB005BA9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B5064F29633AEA00CBE114 /* FlightDataCardView.swift in Sources */,
+				C7B5065329633B8600CBE114 /* FlightDataViewModel.swift in Sources */,
+				C79A6C4629643C8200E2BF8E /* FlightDataListView.swift in Sources */,
+				C7B506472963365E00CBE114 /* FlightData.swift in Sources */,
+				C77F8072295B14BB005BA9EB /* AppMainView.swift in Sources */,
+				C77F809C295B157E005BA9EB /* Apollo.swift in Sources */,
+				C77F80A8295B2828005BA9EB /* API.swift in Sources */,
+				C7CFA1A4296C692200BF9595 /* FlightDetailsView.swift in Sources */,
+				C77F8070295B14BB005BA9EB /* FlightTrip_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77F8079295B14BD005BA9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B5065029633AEA00CBE114 /* FlightDataCardView.swift in Sources */,
+				C77F8082295B14BD005BA9EB /* FlightTrip_TrackerTests.swift in Sources */,
+				C7B5065429633B8600CBE114 /* FlightDataViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77F8083295B14BD005BA9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B5065529633B8600CBE114 /* FlightDataViewModel.swift in Sources */,
+				C7B5065129633AEA00CBE114 /* FlightDataCardView.swift in Sources */,
+				C77F808E295B14BD005BA9EB /* FlightTrip_TrackerUITestsLaunchTests.swift in Sources */,
+				C77F808C295B14BD005BA9EB /* FlightTrip_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C77F807F295B14BD005BA9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77F806B295B14BB005BA9EB /* FlightTrip-Tracker */;
+			targetProxy = C77F807E295B14BD005BA9EB /* PBXContainerItemProxy */;
+		};
+		C77F8089295B14BD005BA9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77F806B295B14BB005BA9EB /* FlightTrip-Tracker */;
+			targetProxy = C77F8088295B14BD005BA9EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C77F808F295B14BD005BA9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C77F8090295B14BD005BA9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C77F8092295B14BD005BA9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "FlightTrip-Tracker/FlightTrip_Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlightTrip-Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppLaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jyothikoushikpaladugu.FlightTrip-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C77F8093295B14BD005BA9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "FlightTrip-Tracker/FlightTrip_Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlightTrip-Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppLaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jyothikoushikpaladugu.FlightTrip-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C77F8095295B14BD005BA9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jyothikoushikpaladugu.FlightTrip-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightTrip-Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlightTrip-Tracker";
+			};
+			name = Debug;
+		};
+		C77F8096295B14BD005BA9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jyothikoushikpaladugu.FlightTrip-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightTrip-Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlightTrip-Tracker";
+			};
+			name = Release;
+		};
+		C77F8098295B14BD005BA9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jyothikoushikpaladugu.FlightTrip-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FlightTrip-Tracker";
+			};
+			name = Debug;
+		};
+		C77F8099295B14BD005BA9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jyothikoushikpaladugu.FlightTrip-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FlightTrip-Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77F8067295B14BB005BA9EB /* Build configuration list for PBXProject "FlightTrip-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77F808F295B14BD005BA9EB /* Debug */,
+				C77F8090295B14BD005BA9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77F8091295B14BD005BA9EB /* Build configuration list for PBXNativeTarget "FlightTrip-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77F8092295B14BD005BA9EB /* Debug */,
+				C77F8093295B14BD005BA9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77F8094295B14BD005BA9EB /* Build configuration list for PBXNativeTarget "FlightTrip-TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77F8095295B14BD005BA9EB /* Debug */,
+				C77F8096295B14BD005BA9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77F8097295B14BD005BA9EB /* Build configuration list for PBXNativeTarget "FlightTrip-TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77F8098295B14BD005BA9EB /* Debug */,
+				C77F8099295B14BD005BA9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C77F809D295B16A9005BA9EB /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.43.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C77F809E295B16A9005BA9EB /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C77F809D295B16A9005BA9EB /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C77F8064295B14BB005BA9EB /* Project object */;
+}
