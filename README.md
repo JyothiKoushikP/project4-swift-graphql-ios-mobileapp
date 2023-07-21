@@ -34,6 +34,8 @@ cd FlightTrip-GraphQL-Server
 node app.js
 ```
 
+<img width="354" alt="Screenshot 2023-01-18 at 10 48 02 PM" src="https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/726c4498-4b0e-4159-97d2-0fdb77126120">
+
 ## Contributions
 
 Any user who wish to make contributions can clone the project and make the required changes to make the API more robust. 
