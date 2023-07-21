@@ -32,7 +32,8 @@ Use the following command after migrating to the "FlightTrip-GraphQL-Server" dir
 ``` bash
 cd FlightTrip-GraphQL-Server
 node app.js
-```
+```![Simulator Screen Shot - iPhone 14 - 2023-01-18 at 22 56 41](https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/c2a46545-9a8b-4ea7-aa00-9937ceb46b84)
+
 
 
 
