@@ -30,8 +30,11 @@ You need to start the GraphQL (Apollo) Server before launching the app for the d
 Use the following command after migrating to the "FlightTrip-GraphQL-Server" directory.
 
 ``` bash
+cd FlightTrip-GraphQL-Server
 node app.js
 ```
+
+
 
 
 ## Contributing
