@@ -11,7 +11,7 @@ IOS Application Development
 
 Xcode
 
-Node.js
+Node.js & React
 
 Swift
 
