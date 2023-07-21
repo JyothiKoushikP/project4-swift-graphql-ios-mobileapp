@@ -32,8 +32,8 @@ Use the following command after migrating to the "FlightTrip-GraphQL-Server" dir
 ``` bash
 cd FlightTrip-GraphQL-Server
 node app.js
+```
 
-
-## Contributing
+## Contributions
 
 Any user who wish to make contributions can clone the project and make the required changes to make the API more robust. 
