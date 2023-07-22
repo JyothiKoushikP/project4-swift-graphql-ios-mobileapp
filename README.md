@@ -37,7 +37,8 @@ node app.js
 
 | Launch Screen                                                   | Available Flights List              |
 | -----------------------------------                             | ----------------------------------- |
-| <img width="354" alt="Screenshot 2023-01-18 at 10 48 02 PM" src="https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/2938f199-78a0-445e-94f9-00f626bfb4da"> | ![Simulator Screen Shot - iPhone 14 - 2023-01-18 at 22 56 25](https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/b1c56995-3e80-44f0-ae87-282d99dd5602)
+| <img width="292" alt="Screenshot 2023-01-18 at 10 48 02 PM" src="https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/2f08ee66-c1ce-4df7-a7cd-dbe7f6f7ee32"> |
+ | ![Simulator Screen Shot - iPhone 14 - 2023-01-18 at 22 56 25](https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/b1c56995-3e80-44f0-ae87-282d99dd5602)
  
 
 ## Contributions
