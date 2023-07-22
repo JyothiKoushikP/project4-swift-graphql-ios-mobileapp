@@ -33,8 +33,12 @@ Use the following command after migrating to the "FlightTrip-GraphQL-Server" dir
 cd FlightTrip-GraphQL-Server
 node app.js
 ```
+## Snapshots
 
-<img width="354" alt="Screenshot 2023-01-18 at 10 48 02 PM" src="https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/726c4498-4b0e-4159-97d2-0fdb77126120">
+| Launch Screen                            | Available Flight List          |
+| ----------------------------------- | ----------------------------------- |
+| <img width="354" alt="Screenshot 2023-01-18 at 10 48 02 PM" src="https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/2938f199-78a0-445e-94f9-00f626bfb4da"> | ![Simulator Screen Shot - iPhone 14 - 2023-01-18 at 22 55 30](https://github.com/jyothi-koushik-1998/project4-swift-graphql-ios-mobileapp/assets/47804397/d899fdea-f3d1-498d-a902-e93b4c720bd9)
+ 
 
 ## Contributions
 
